@@ -46,3 +46,12 @@ redis-cli SET report_json '{"ok":true}' EX 30
 redis-cli GET report_json
 # через 30 сек:
 redis-cli GET report_json   # (nil)
+
+## Задание 2. Memcached
+
+Установлен и запущен memcached.
+
+Статус службы:
+
+Loaded: loaded (/us/Lib/systemd/system/memcached. service; enabled; preset: enabled)
+Active: active (running) since Tue 2025-07-22 20:12:02 MSK; 43s ago
