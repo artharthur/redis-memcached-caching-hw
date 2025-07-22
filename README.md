@@ -48,3 +48,7 @@
 
 Loaded: loaded (/us/Lib/systemd/system/memcached. service; enabled; preset: enabled)
 Active: active (running) since Tue 2025-07-22 20:12:02 MSK; 43s ago
+
+Скриншот статуса:
+
+![Статус memcached](./screenshots/memcached_status.png)
