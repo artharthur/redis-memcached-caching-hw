@@ -40,13 +40,6 @@
 
 ---
 
-## Мини-проверка Redis (TTL)
-```bash
-redis-cli SET report_json '{"ok":true}' EX 30
-redis-cli GET report_json
-# через 30 сек:
-redis-cli GET report_json   # (nil)
-
 ## Задание 2. Memcached
 
 Установлен и запущен memcached.
