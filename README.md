@@ -74,3 +74,28 @@ END
 Скриншот подтверждения:
 
 ![TTL удаление](./screenshots/memcached_ttl.png)
+
+---
+
+## Задание 4. Запись данных в Redis
+
+Записаны ключи:
+
+```bash
+SET key1 "value1"
+SET key2 "value2"
+SET key3 "value3"
+
+Получены ключи и значения:
+
+127.0.0.1:6379> KEYS *
+1) "key1"
+2) "key2"
+3) "key3"
+
+127.0.0.1:6379> GET key1
+"value1"
+127.0.0.1:6379> GET key2
+"value2"
+127.0.0.1:6379> GET key3
+"value3"
