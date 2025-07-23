@@ -52,3 +52,25 @@ Active: active (running) since Tue 2025-07-22 20:12:02 MSK; 43s ago
 Скриншот статуса:
 
 ![Статус memcached](./screenshots/memcached_status.png)
+
+---
+
+## Задание 3. Удаление по TTL в Memcached
+
+Установлены ключи с TTL 5 секунд:
+
+set key1 0 5 5
+value
+STORED
+set key2 0 5 7
+another
+STORED
+
+Через 5 секунд ключи удалились:
+
+END
+END
+
+Скриншот подтверждения:
+
+![TTL удаление](./screenshots/memcached_ttl.png)
