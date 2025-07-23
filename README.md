@@ -81,7 +81,6 @@ END
 
 Записаны ключи:
 
-```bash
 SET key1 "value1"
 SET key2 "value2"
 SET key3 "value3"
@@ -102,4 +101,4 @@ SET key3 "value3"
 
 Скриншот подтверждения:
 
-![Описание скриншота](./screenshots/redis_write.png)
+![Redis записи](./screenshots/redis_write.png)
