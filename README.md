@@ -99,3 +99,7 @@ SET key3 "value3"
 "value2"
 127.0.0.1:6379> GET key3
 "value3"
+
+Скриншот подтверждения:
+
+![Описание скриншота](./screenshots/redis_write.png)
